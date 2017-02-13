@@ -1,0 +1,9 @@
+<h1>Restaurant <%= @restaurant[:name] %></h1>
+
+<!-- HTML raw code -->
+<a href="/restaurants">Go back to Restaurants</a>
+
+<!-- ruby way of defining links, name, url -->
+<%= link_to 'Go back to Restaurants', restaurants_path %>
+
+<%= link_to 'Go back to Restaurants', portuguese_restaurants_path %>
